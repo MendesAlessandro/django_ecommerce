@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+
+*.pyc
+*.pyo
+*.mo
+*~
+.coverage
+db.sqlite3
+uwsgi.ini
+log/**
+!log/placeholder
+media/**
+!media/**/init.txt
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Sqlite database
+*.sqlite3
+
+# Django settings_local.py
+local_settings.py
+.DS_Store
+
+# pycharm .idea
+.idea/
