@@ -27,6 +27,7 @@ def contact_page(request):
     context = {
         "title": u"Página de contato",
         "content": u"Bem-vindo a página de contato",
+        "brand": "Novo nome da marca",
         "form" : contact_form
     }
     if contact_form.is_valid():
